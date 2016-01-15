@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>Last Name</th>
+            <td>
+                <form>
+                    <input type="text" />
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>First Name</th>
+            <td>
+                <form>
+                    <input type="text"/>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>Address</th>
+            <td>
+                <form>
+                    <textarea></textarea>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>City</th>
+            <td>
+                <form>
+                    <input type="text" />
+                    <label>State</label>
+                    <input type="text" />
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>Zip/Postal Code</th>
+            <td>
+                <input type="text"/>
+            </td>
+        </tr>
+        <tr>
+            <th>Country</th>
+            <td>
+                <form>
+                    <select>
+                        <option selected="selected">Bulgaria</option>
+                        <option>Greece</option>
+                        <option>Russia</option>
+                        <option>USA</option>
+                    </select>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>Phone(country code, area code, number)</th>
+            <td>
+                <form>
+                    (+<input type="text" />)
+                    <input type="text" />
+                    <input type="text"  />
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>
+                <form>
+                    <input type="email" />
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>Birth date</th>
+            <td>
+                <form>
+                    <input type="text" value="дд.мм.гггг." />
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>Gender</th>
+            <td>
+                <form>
+                    <select>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>Starting date</th>
+            <td>
+                <form>
+                    <input type="radio" name="radio1[]" />
+                    <label>Spring 2015</label>
+                    <input type="radio" name="radio1[]"/>
+                    <label>Summer 2015</label>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <th>Comments/Questions</th>
+            <td>
+                <form>
+                    <textarea></textarea>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <form>
+                    <input type="submit" value="Submit" />
+                    <input type="reset" value="Clean This Form" />
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
